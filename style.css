@@ -1,0 +1,162 @@
+/*----MOBILE---------------------------*/
+@media only screen and (max-width: 698px){
+    /*--------background color---------*/
+    body{
+        background: rgb(224 217 206);
+        color: #322d38;
+    }
+    /*--h2---*/
+    h2{
+        color: #805151;
+        border-bottom: 2px solid #747375;
+        padding-bottom: 1.8%;
+    }
+    /*-----------WALLPAPER----------*/
+    .img-fluid{
+        height: 260px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    /*----HEADING----------*/
+    .heading{
+        border-bottom: 2px solid rgba(59, 55, 55, 0.61);
+        padding-bottom: 1.8%;
+        padding-top: 3%;
+    }
+    /*-------DESIGNS SECTION------*/
+    .designs{
+        padding-top: 3%;
+    }
+    /*------ICONS STYLING------*/
+    i{
+        font-size: x-large;
+    }
+    .icon{
+        width: 45px;
+        height: 40px;
+    }
+    .firstIcon{
+        color: purple;
+    }
+    .secondIcon{
+        color: red;
+    }
+    /*------------TYPES OF DESIGNS-----------*/
+    .artTypes{
+        background-image: url(images/typesOfArtsWall.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    .padCard{
+        padding-bottom: 4%;
+    }
+    /*--------------FEATURES-----------------*/
+    .features{
+        background-image: url(images/featuresWall.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .featuresBox{
+        width: 90%;
+        padding-top: 1.5%;
+        padding: 10px;
+        box-shadow: inset 1px 12px 7px 10px #a49989;
+        background-color: #e0d9ce8a;
+    }
+    /*----------FOLLOW US---------------*/
+    .followUs{
+        padding-bottom: 4%;
+    }
+    /*------------MISC---------------*/
+    .d-block{
+        height: 360px;
+    }
+}
+
+
+/*------------------BIG SCREEN---------------*/
+@media only screen and (min-width: 700px){
+    /*--------background color---------*/
+    body{
+        background: rgb(224 217 206);
+        color: #322d38;
+    }
+    /*--h2---*/
+    h2{
+        color: #805151;
+        border-bottom: 2px solid #747375;
+        padding-bottom: 1.8%;
+    }
+    /*-----------WALLPAPER----------*/
+    .img-fluid{
+        height: 564px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 71% 52%;
+    }
+    /*----HEADING----------*/
+    .heading{
+        border-bottom: 2px solid rgba(59, 55, 55, 0.61);
+        padding-bottom: 1.8%;
+    }
+    /*-------DESIGNS SECTION------*/
+    .designs{
+        padding-top: 3%;
+    }
+    /*------ICONS STYLING------*/
+    i{
+        font-size: xx-large;
+    }
+    .icon{
+        width: 58px;
+        height: 52px;
+    }
+    .firstIcon{
+        color: purple;
+    }
+    .secondIcon{
+        color: red;
+    }
+    /*-------TYPES OF ARTS---------------*/
+    .card-img-top{
+        object-fit: cover;
+        object-position: 51% 33%;
+        height: 192px;
+    }
+    /*----------TYPES OF DESIGNS----*/
+    .artTypes{
+        background-image: url(images/typesOfArtsWall.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    .padCard{
+        padding-bottom: 1.4%;
+    }
+    /*--------------FEATURES-----------------*/
+    .features{
+        background-image: url(images/featuresWall.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .featuresBox{
+        padding-top: 1.5%;
+        padding: 10px;
+        box-shadow: inset 1px 12px 7px 10px #a49989;
+        background-color: #e0d9ce8a;
+    }
+    /*----------FOLLOW US---------------*/
+    .followUs{
+        padding-bottom: 4%;
+    }
+    /*------------MISC---------------*/
+    .d-block{
+        height: 550px;
+    }
+    .carousel-caption{
+        bottom: 50px;
+    }
+}
+
