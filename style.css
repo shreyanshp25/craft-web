@@ -43,6 +43,9 @@
         color: red;
     }
     /*------------TYPES OF DESIGNS-----------*/
+    .card{
+        width: 23rem !important;
+    }
     .artTypes{
         background-image: url(images/typesOfArtsWall.jpg);
         background-attachment: fixed;
